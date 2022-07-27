@@ -408,7 +408,7 @@
 		</div>
 	</div>
 
-	<div id="fh5co-health-protocol" class="fh5co-bg" style="background-image:url(<?= base_url() ?>/public/assets/images/background/blue-brush-2.jpg);">>
+	<div id="fh5co-health-protocol" class="fh5co-bg" style="background-image:url(<?= base_url() ?>/public/assets/images/background/bg-flower.webp);">>
         <div class="overlay"></div>
         <div class="container">
 			<div class="row animate-box">
@@ -504,9 +504,9 @@
 								</div>
 								<h3>1350018673200</h3>
 								<h4>a/n Nadira </h4>
-								<button onclick="copyTextFunction('1350018673200')" class="btn btn-primary btn-sm arrowpopup">
+								<!-- <button onclick="copyTextFunction('1350018673200')" class="btn btn-primary btn-sm arrowpopup">
 									<span class="tooltiptext" id="tooltipdemo">Copied</span>
-									Salin</button>
+									Salin</button> -->
 							</div>
 						</div>
 				</div>
@@ -520,9 +520,9 @@
 								</div>
 								<h3>0898884554</h3>
 								<h4>a/n Nadira </h4>
-								<button onclick="copyTextFunction('0898884554')" class="btn btn-primary btn-sm arrowpopup">
+								<!-- <button onclick="copyTextFunction('0898884554')" class="btn btn-primary btn-sm arrowpopup">
 									<span class="tooltiptext tooltipdemo">Copied</span>
-									Salin</button>
+									Salin</button> -->
 							</div>
 						</div>
 				</div>
@@ -536,9 +536,9 @@
 									<h3>Kirim Kado</h3>
 								</div>
 								<h4>Jl.Petek Kp.Driyahan 234A, Kelurahan Dadapsari, Kec.Semarang Utara, Semarang</h4>
-								<button onclick="copyTextFunction('Jl.Petek Kp.Driyahan 234A, Kelurahan Dadapsari, Kec.Semarang Utara, Semarang')" class="btn btn-primary btn-sm arrowpopup">
+								<!-- <button onclick="copyTextFunction('Jl.Petek Kp.Driyahan 234A, Kelurahan Dadapsari, Kec.Semarang Utara, Semarang')" class="btn btn-primary btn-sm arrowpopup">
 									<span class="tooltiptext tooltipdemo">Copied</span>
-									Salin</button>
+									Salin</button> -->
 							</div>
 						</div>
 				</div>
@@ -743,7 +743,7 @@
 		// as we don't want to change the url on slide change
 		hash: false,
 		// Do not allow users to close the gallery
-		closable: true,
+		closable: false,
 		// Add maximize icon to enlarge the gallery
 		showMaximizeIcon: false,
 		download : false,
