@@ -20,7 +20,7 @@ class Home extends BaseController
         $param = $this->request->getGet('to');
         if($param){
             if($param!==''){
-                $data['param']=$param;
+                $data['param']=base64_decode($param);
             }
         }
         $model = new GuestbookModel;

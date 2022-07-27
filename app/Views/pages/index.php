@@ -115,7 +115,7 @@
 						<p style="color:#34ebe1;margin-bottom: 0"><?=$param?></p><br>
 						<p>Kami Mengundang Anda Untuk Hadir Di Acara Pernikahan Kami.</p>
 
-						<button class="btn btn-primary" id="open-invitation">Buka Undangan</button>
+						<button class="btn btn-primary js-gotop" id="open-invitation">Buka Undangan</button>
 					</div>
 				</div>
 			</div>
@@ -642,6 +642,10 @@
 	function scrollToElement(el) {
 		$("html, body").animate({ scrollTop: $(`#${el}`).offset().top }, 1000);
 	}
+
+	$(document).ready(function() {
+		// $('.js-gotop').trigger('click');
+	})
 </script>
 
 <script>
@@ -678,7 +682,7 @@
 	}
 
 	function togglePlayButton1(play) {
-		document.getElementById("youtube-icon1").src = play ? "https://i.imgur.com/IDzX9gL.png" : "https://i.imgur.com/quyUPXN.png";
+		document.getElementById("youtube-icon1").src = play ? "<?=base_url()?>/public/assets/images/pause.png" : "<?=base_url()?>/public/assets/images/play.png";
 	}
 
 	function toggleAudio1() {
@@ -708,28 +712,6 @@
 		if (event.data === 0) {
 			togglePlayButton1(false);
 		}
-	}
-</script>
-
-<script>
-	function akadLocation(){
-		// If it's an iPhone..
-		if( (navigator.platform.indexOf("iPhone") != -1)
-				|| (navigator.platform.indexOf("iPod") != -1)
-				|| (navigator.platform.indexOf("iPad") != -1))
-			window.open("maps://www.google.com/maps?daddr=masjid+keuchik+leumik");
-		else
-			window.open("https://www.google.com/maps?daddr=masjid+keuchik+leumik");
-	}
-
-	function walimahLocation(){
-		// If it's an iPhone..
-		if( (navigator.platform.indexOf("iPhone") != -1)
-				|| (navigator.platform.indexOf("iPod") != -1)
-				|| (navigator.platform.indexOf("iPad") != -1))
-			window.open("maps://www.google.com/maps?daddr=Amel+Convention+Hall");
-		else
-			window.open("https://www.google.com/maps?daddr=Amel+Convention+Hall");
 	}
 </script>
 
@@ -850,7 +832,6 @@
 
               if(response)
               {
-                  $('#modal-input').modal('hide')
                   Swal.fire({
                       title: 'Berhasil',
                       text: 'Ucapan berhasil dikirim',
