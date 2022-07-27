@@ -1,0 +1,18 @@
+SELECT
+	g.`name` as campus_name,f.campus_id,ans.question_id,ans.option_id,ans.user_id,e.id as category_id,e.`name` as category_name,c.id as subcategory_id, c.`name`as subcategory_name,if(a.point is null,0,a.point)as point,d.id as app_id,d.`name`as app_name, (SELECT COUNT(*) FROM result_apps WHERE result_category_id=e.id) as total_app, (SELECT COUNT(*) FROM result_subcategories WHERE `name` LIKE c.name) as jml_sub,
+	CASE c.type
+      WHEN 'average' THEN AVG(a.point)
+      WHEN 'max' THEN MAX(a.point)
+      ELSE 0
+  END as 'nilai'
+FROM
+	answers ans
+	LEFT JOIN result_questions b ON b.question_id	= ans.question_id
+	LEFT JOIN result_option_points a ON a.result_question_id	= b.id AND ans.option_id=a.question_option_id
+	LEFT JOIN result_subcategories c ON c.id = b.result_subcategory_id
+	LEFT OUTER JOIN result_apps d ON d.id = b.result_app_id
+	LEFT JOIN result_categories e ON e.id = c.result_category_id
+	LEFT JOIN users f ON f.id = ans.user_id
+	LEFT JOIN campuses g ON g.id = f.campus_id
+	WHERE ans.option_id IS NOT NULL AND f.campus_id IS NOT NULL and c.result_category_id is NOT NULL
+	GROUP BY f.campus_id,c.result_category_id,b.result_subcategory_id,b.result_app_id 
