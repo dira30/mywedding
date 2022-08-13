@@ -43,6 +43,13 @@
 	<!-- Bootstrap  -->
 	<link rel="stylesheet" href="<?= base_url() ?>/public/assets/css/bootstrap.css">
 
+	<link rel="stylesheet" href="//cdn.jsdelivr.net/npm/alertifyjs@1.13.1/build/css/alertify.min.css"/>
+	<!-- Default theme -->
+	<link rel="stylesheet" href="//cdn.jsdelivr.net/npm/alertifyjs@1.13.1/build/css/themes/default.min.css"/>
+	<!-- Semantic UI theme -->
+	<link rel="stylesheet" href="//cdn.jsdelivr.net/npm/alertifyjs@1.13.1/build/css/themes/semantic.min.css"/>
+	<!-- Bootstrap theme -->
+	<link rel="stylesheet" href="//cdn.jsdelivr.net/npm/alertifyjs@1.13.1/build/css/themes/bootstrap.min.css"/>
 	<!-- Magnific Popup -->
 	<link rel="stylesheet" href="<?= base_url() ?>/public/assets/css/magnific-popup.css">
 
@@ -100,7 +107,7 @@
 		</div>
 	</div>
 
-	<div id="overlay">
+	<div id="overlay" style="overflow-x: hidden !important;overflow-y: hidden;">
 		<div class="content">
 			<div class="container">
 				<div class="row">
@@ -143,7 +150,7 @@
 					<div class="simply-countdown simply-countdown-wedding"></div>
 					<br>
 					<p>
-						<a href="https://calendar.google.com/event?action=TEMPLATE&tmeid=MzdrM28zazA1ZDF0NW5lbnJsdDFrOG9mbzggZWxmYmVhdXR5NTNAbQ&tmsrc=elfbeauty53%40gmail.com" target="_blank" class="btn btn-primary btn-sm">Save the date</a><br>
+						<a href="https://calendar.google.com/event?action=TEMPLATE&tmeid=MGthb2hpbzQzbmEyZ3FxbWs2b3R0a2tiY2MgbmFkaXJhZGlyYTBAbQ&tmsrc=nadiradira0%40gmail.com" target="_blank" class="btn btn-primary btn-sm">Save the date</a><br>
 						<i style="font-size: 15px">*Klik tombol ini untuk menyimpan tanggal pada google kalender</i>
 					</p>
 				</div>
@@ -179,7 +186,7 @@
 				<p class="heart text-center"><i class="icon-heart2"></i></p>
 				<div class="couple-half">
 					<div class="bride">
-						<img src="<?= base_url() ?>/public/assets/images/gallery/photo1658753227.jpeg" alt="groom" class="img-responsive">
+						<img src="<?= base_url() ?>/public/assets/images/gallery/IMG_7616.jpg" alt="groom" class="img-responsive">
 					</div>
 					<div class="desc-bride">
 						<h3>Ahmad Zaki</h3>
@@ -227,7 +234,7 @@
 					</div>
 					<div class="col-md-6 col-sm-6 text-center">
 						<div class="event-wrap animate-box">
-							<h3 style="font-family: 'Oswald', Arial, serif;">Walimatul 'Ursy</h3>
+							<h3 style="font-family: 'Oswald', Arial, serif;">Resepsi</h3>
 							<div class="event-col">
 								<i class="icon-clock"></i>
 								<span>19:00</span>
@@ -503,7 +510,7 @@
 									<img src="<?= base_url() ?>/public/assets/images/logo-mandiri.png" width="150px" height="60px">
 								</div>
 								<h3>1350018673200</h3>
-								<h4>a/n Nadira </h4>
+								<h4>Nadira</h4>
 								<!-- <button onclick="copyTextFunction('1350018673200')" class="btn btn-primary btn-sm arrowpopup">
 									<span class="tooltiptext" id="tooltipdemo">Copied</span>
 									Salin</button> -->
@@ -519,7 +526,7 @@
 									<img src="<?= base_url() ?>/public/assets/images/logo-bni.png" width="150px" height="60px">
 								</div>
 								<h3>0898884554</h3>
-								<h4>a/n Nadira </h4>
+								<h4>Nadira</h4>
 								<!-- <button onclick="copyTextFunction('0898884554')" class="btn btn-primary btn-sm arrowpopup">
 									<span class="tooltiptext tooltipdemo">Copied</span>
 									Salin</button> -->
@@ -604,7 +611,9 @@
 <script src="<?= base_url() ?>/public/assets/lib/lightgallery.js/dist/plugins/autoplay/lg-autoplay.min.js"></script>
 <script src="<?= base_url() ?>/public/assets/lib/lightgallery.js/dist/plugins/fullscreen/lg-fullscreen.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/showdown/2.0.3/showdown.min.js"></script>
-<script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/core-js/2.4.1/core.js"></script>
+<script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script> -->
+<script src="//cdn.jsdelivr.net/npm/alertifyjs@1.13.1/build/alertify.min.js"></script>
 <script src="<?php echo base_url(); ?>/public/assets/plugins/datatables/jquery.dataTables.min.js"></script>
 <script src="<?php echo base_url(); ?>/public/assets/plugins/datatables-bs4/js/dataTables.bootstrap4.min.js"></script>
 <script src="<?php echo base_url(); ?>/public/assets/plugins/datatables-responsive/js/dataTables.responsive.min.js"></script>
@@ -723,7 +732,8 @@
 		thumbnail : false,
 		// Turn off hash plugin in case if you are using it
 		// as we don't want to change the url on slide change
-		hash: false,
+		hash: true,
+		downloadUrl:false,
 		// Do not allow users to close the gallery
 		closable: false,
 		// Add maximize icon to enlarge the gallery
@@ -832,29 +842,43 @@
 
               if(response)
               {
-                  Swal.fire({
-                      title: 'Berhasil',
-                      text: 'Ucapan berhasil dikirim',
-                      icon: 'success',
-                  }).then((result) => {
-                      // location.reload();
-                      $.ajax({
+                //   Swal.fire({
+                //       title: 'Berhasil',
+                //       text: 'Ucapan berhasil dikirim',
+                //       icon: 'success',
+                //   }).then((result) => {
+                //       // location.reload();
+                //       $.ajax({
+                //           url: "<?= base_url('Home/getGuest') ?>",
+                //       }).done(function(result) {
+                //         $('.form-input').trigger('reset');
+                //           tabless.clear().draw();
+                //           result = JSON.parse(result);
+                //           tabless.rows.add(result).draw();
+                //       }).fail(function(jqXHR, textStatus, errorThrown) {
+                //           // needs to implement if it fails
+                //       });
+                //   })
+				alertify
+					.alert('Alhamdulillah',"Terima kasih atas ucapan dan doa nya", function(){
+						$.ajax({
                           url: "<?= base_url('Home/getGuest') ?>",
-                      }).done(function(result) {
-                        $('.form-input').trigger('reset');
-                          tabless.clear().draw();
-                          result = JSON.parse(result);
-                          tabless.rows.add(result).draw();
-                      }).fail(function(jqXHR, textStatus, errorThrown) {
-                          // needs to implement if it fails
-                      });
-                  })
+						}).done(function(result) {
+							$('.form-input').trigger('reset');
+							tabless.clear().draw();
+							result = JSON.parse(result);
+							tabless.rows.add(result).draw();
+						}).fail(function(jqXHR, textStatus, errorThrown) {
+							// needs to implement if it fails
+						});
+					});
               } else {
-                  Swal.fire({
-                      title: 'Ups..',
-                      text: 'Ucapan gagal dikirim. Mohon coba lagi.',
-                      icon: 'warning',
-                  })
+				alertify.error('Ucapan gagal dikirim. Mohon coba lagi.');
+                //   Swal.fire({
+                //       title: 'Ups..',
+                //       text: 'Ucapan gagal dikirim. Mohon coba lagi.',
+                //       icon: 'warning',
+                //   })
               }
           }
       })
