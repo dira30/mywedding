@@ -179,7 +179,7 @@
 						<p><span style="color: #bf9b73">Putri dari</span><br>
 							<span class="parents-font">(Alm) Farid bin Toha Assegaff</span>
 							<br>
-							<span class="parents-font">Laela binti Abubakar Basyaeban</span>
+							<span class="parents-font">Laela binti Abubakar Basyaeban</span> 
 						</p>
 					</div>
 				</div>
