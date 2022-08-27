@@ -2368,4 +2368,16 @@ fadeIn {  from {
   .arrowpopup .show {
   visibility: visible;
   }
+
+  /* .swal2-popup{
+    width: 70em !important;
+    height: 60em;
+  } */
+
+  .swal2-styled.swal2-confirm {
+    padding: 7px 19px;
+    border-radius: 2px;
+    font-size: 2em !important;
+    text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.3);
+  }
 /*# sourceMappingURL=style.css.map */

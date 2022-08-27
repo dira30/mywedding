@@ -177,9 +177,9 @@
 					<div class="desc-groom">
 						<h3>Nadira</h3>
 						<p><span style="color: #bf9b73">Putri dari</span><br>
-							<span class="parents-font">(Alm) Farid bin Toha Assegaff</span>
+							<span class="parents-font">(Alm) Farid bin Toha Assegaf</span>
 							<br>
-							<span class="parents-font">Laela binti Abubakar Basyaeban</span> 
+							<span class="parents-font">Laela binti Abubakar Basyaiban</span> 
 						</p>
 					</div>
 				</div>
@@ -291,7 +291,7 @@
 		<img height="400" width="100%" style="position: absolute; bottom: -175px" src="<?= base_url() ?>/public/assets/images/background/wave-down.svg">
 		<div class="container">
 			<div class="ayat-content animate-box">
-				Dan di antara tanda-tanda kekuasaan-Nya lah Dia menciptakan untukmu istri-istri dari jenismu sendiri, supaya kamu cenderung dan merasa tenteram kepadanya, dan dijadikan-Nya diantaramu rasa kasih dan sayang. Sesungguhnya pada yang demikian itu benar-benar terdapat tanda-tanda bagi kaum yang berfikir.
+			Dan di antara tanda-tanda (kebesaran)-Nya ialah Dia menciptakan pasangan-pasangan untukmu dari jenismu sendiri, agar kamu cenderung dan merasa tenteram kepadanya, dan Dia menjadikan di antaramu rasa kasih dan sayang. Sungguh, pada yang demikian itu benar-benar terdapat tanda-tanda (kebesaran Allah) bagi kaum yang berpikir.
 				<br>
 				<b>- Q.S Ar Rum : 21 -</b>
 			</div>
@@ -415,7 +415,7 @@
 		</div>
 	</div>
 
-	<div id="fh5co-health-protocol" class="fh5co-bg" style="background-image:url(<?= base_url() ?>/public/assets/images/background/bg-flower.webp);">>
+	<!-- <div id="fh5co-health-protocol" class="fh5co-bg" style="background-image:url(<?= base_url() ?>/public/assets/images/background/bg-flower.webp);">>
         <div class="overlay"></div>
         <div class="container">
 			<div class="row animate-box">
@@ -428,18 +428,11 @@
 						<div class="row">
 						<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3960.230336436766!2d110.4500183149794!3d-6.98212327031385!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e708cc855dcb68f%3A0x740068fbacb464bc!2sUniversitas%20Semarang!5e0!3m2!1sid!2sid!4v1658905597693!5m2!1sid!2sid" width="1150" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
 						</iframe>
-						<!-- <div class="mapouter">
-							<div class="gmap_canvas">
-								<iframe width="1150" height="400" id="gmap_canvas" src="https://maps.google.com/maps?q=universitas%20semarang&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
-								<a href="https://www.whatismyip-address.com/divi-discount/">divi discount</a><br><style>.mapouter{position:relative;text-align:right;height:400px;width:1150px;}</style>
-								<a href="https://www.embedgooglemap.net">embedgooglemap.net</a><style>.gmap_canvas {overflow:hidden;background:none!important;height:400px;width:1150px;}</style>
-							</div>
-						</div> -->
 					</div>
                 </div>
             </div>
         </div>
-    </div>
+    </div> -->
 
 	<div id="fh5co-testimonial" style="background: url('<?= base_url() ?>/public/assets/images/background/repeat-background/so-white.png'); background-repeat:repeat; border-top: 1px solid #f2f2f2">
 		<img height="400" class="flower-bukutamu-right" style="right: 0;top: 0;position: absolute;" src="<?= base_url() ?>/public/assets/images/background/flowers/top-right-3.svg">
@@ -511,9 +504,9 @@
 								</div>
 								<h3>1350018673200</h3>
 								<h4>Nadira</h4>
-								<!-- <button onclick="copyTextFunction('1350018673200')" class="btn btn-primary btn-sm arrowpopup">
+								<button rekening="1350018673200" class="btn btn-primary btn-sm arrowpopup copy">
 									<span class="tooltiptext" id="tooltipdemo">Copied</span>
-									Salin</button> -->
+									Salin</button>
 							</div>
 						</div>
 				</div>
@@ -527,9 +520,9 @@
 								</div>
 								<h3>0898884554</h3>
 								<h4>Nadira</h4>
-								<!-- <button onclick="copyTextFunction('0898884554')" class="btn btn-primary btn-sm arrowpopup">
+								<button rekening='0898884554' class="btn btn-primary btn-sm arrowpopup copy">
 									<span class="tooltiptext tooltipdemo">Copied</span>
-									Salin</button> -->
+									Salin</button>
 							</div>
 						</div>
 				</div>
@@ -543,9 +536,9 @@
 									<h3>Kirim Kado</h3>
 								</div>
 								<h4>Jl.Petek Kp.Driyahan 234A, Kelurahan Dadapsari, Kec.Semarang Utara, Semarang</h4>
-								<!-- <button onclick="copyTextFunction('Jl.Petek Kp.Driyahan 234A, Kelurahan Dadapsari, Kec.Semarang Utara, Semarang')" class="btn btn-primary btn-sm arrowpopup">
+								<button rekening='Jl.Petek Kp.Driyahan 234A, Kelurahan Dadapsari, Kec.Semarang Utara, Semarang' class="btn btn-primary btn-sm arrowpopup copy">
 									<span class="tooltiptext tooltipdemo">Copied</span>
-									Salin</button> -->
+									Salin</button>
 							</div>
 						</div>
 				</div>
@@ -611,13 +604,13 @@
 <script src="<?= base_url() ?>/public/assets/lib/lightgallery.js/dist/plugins/autoplay/lg-autoplay.min.js"></script>
 <script src="<?= base_url() ?>/public/assets/lib/lightgallery.js/dist/plugins/fullscreen/lg-fullscreen.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/showdown/2.0.3/showdown.min.js"></script>
-<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/core-js/2.4.1/core.js"></script>
-<script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script> -->
-<script src="//cdn.jsdelivr.net/npm/alertifyjs@1.13.1/build/alertify.min.js"></script>
+<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/core-js/2.4.1/core.js"></script> -->
+<!-- <script src="//cdn.jsdelivr.net/npm/alertifyjs@1.13.1/build/alertify.min.js"></script> -->
 <script src="<?php echo base_url(); ?>/public/assets/plugins/datatables/jquery.dataTables.min.js"></script>
 <script src="<?php echo base_url(); ?>/public/assets/plugins/datatables-bs4/js/dataTables.bootstrap4.min.js"></script>
 <script src="<?php echo base_url(); ?>/public/assets/plugins/datatables-responsive/js/dataTables.responsive.min.js"></script>
 <script src="<?php echo base_url(); ?>/public/assets/plugins/datatables-responsive/js/responsive.bootstrap4.min.js"></script>
+<script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 
 
 <script>
@@ -799,22 +792,6 @@
 	// Since we are using dynamic mode, we need to programmatically open lightGallery
 	inlineGallery.openGallery();
 
-	function copyTextFunction(element) {
-
-		/* Copy the text inside the text field */
-		navigator.clipboard.writeText(element);
-
-		/* Alert the copied text */
-		alert("Copied : " + element);
-
-		var tt = document.getElementById("tooltipdemo");
-		// var tt = $(this);
-		tt.classList.toggle("show");
-		setTimeout(function(){
-			tt.classList.toggle("show");
-		}, 1000);
-	}
-
   $(document).on('submit', '.form-input', function(e) {
       e.preventDefault();
 
@@ -842,43 +819,44 @@
 
               if(response)
               {
-                //   Swal.fire({
-                //       title: 'Berhasil',
-                //       text: 'Ucapan berhasil dikirim',
-                //       icon: 'success',
-                //   }).then((result) => {
-                //       // location.reload();
-                //       $.ajax({
-                //           url: "<?= base_url('Home/getGuest') ?>",
-                //       }).done(function(result) {
-                //         $('.form-input').trigger('reset');
-                //           tabless.clear().draw();
-                //           result = JSON.parse(result);
-                //           tabless.rows.add(result).draw();
-                //       }).fail(function(jqXHR, textStatus, errorThrown) {
-                //           // needs to implement if it fails
-                //       });
-                //   })
-				alertify
-					.alert('Alhamdulillah',"Terima kasih atas ucapan dan doa nya", function(){
-						$.ajax({
+                  Swal.fire({
+                      title: 'Alhamdulillah',
+                    //   text: '<h2>Terima kasih atas ucapan dan doa nya</h2>',
+                      icon: 'success',
+					  html:'<h4>Terima kasih atas ucapan dan doa nya</h4>',
+                  }).then((result) => {
+                      // location.reload();
+                      $.ajax({
                           url: "<?= base_url('Home/getGuest') ?>",
-						}).done(function(result) {
-							$('.form-input').trigger('reset');
-							tabless.clear().draw();
-							result = JSON.parse(result);
-							tabless.rows.add(result).draw();
-						}).fail(function(jqXHR, textStatus, errorThrown) {
-							// needs to implement if it fails
-						});
-					});
+                      }).done(function(result) {
+                        $('.form-input').trigger('reset');
+                          tabless.clear().draw();
+                          result = JSON.parse(result);
+                          tabless.rows.add(result).draw();
+                      }).fail(function(jqXHR, textStatus, errorThrown) {
+                          // needs to implement if it fails
+                      });
+                  })
+				// alertify
+				// 	.alert('Alhamdulillah',"Terima kasih atas ucapan dan doa nya", function(){
+				// 		$.ajax({
+                //           url: "<?= base_url('Home/getGuest') ?>",
+				// 		}).done(function(result) {
+				// 			$('.form-input').trigger('reset');
+				// 			tabless.clear().draw();
+				// 			result = JSON.parse(result);
+				// 			tabless.rows.add(result).draw();
+				// 		}).fail(function(jqXHR, textStatus, errorThrown) {
+				// 			// needs to implement if it fails
+				// 		});
+				// 	});
               } else {
-				alertify.error('Ucapan gagal dikirim. Mohon coba lagi.');
-                //   Swal.fire({
-                //       title: 'Ups..',
-                //       text: 'Ucapan gagal dikirim. Mohon coba lagi.',
-                //       icon: 'warning',
-                //   })
+				// alertify.error('Ucapan gagal dikirim. Mohon coba lagi.');
+                  Swal.fire({
+                      title: 'Ups..',
+                      text: 'Ucapan gagal dikirim. Mohon coba lagi.',
+                      icon: 'warning',
+                  })
               }
           }
       })
@@ -913,6 +891,20 @@
             },
             "bDestroy": true
         });
+
+		function copyToClipboard(elem) {
+            var $temp = $("<input>");
+            $("body").append($temp);
+            $temp.val(elem).select();
+            document.execCommand("copy");
+            $temp.remove();
+        }
+
+        $(".copy").on("click", function() {
+            var elem = $(this).attr("rekening")
+            alert("Rekening Berhasil disalin.")
+            copyToClipboard(elem)
+        })
 </script>
 
 </body>
