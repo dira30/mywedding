@@ -186,7 +186,7 @@
 				<p class="heart text-center"><i class="icon-heart2"></i></p>
 				<div class="couple-half">
 					<div class="bride">
-						<img src="<?= base_url() ?>/public/assets/images/gallery/IMG_7616.jpg" alt="groom" class="img-responsive">
+						<img src="<?= base_url() ?>/public/assets/images/gallery/zaki-wedding.jpg" alt="groom" class="img-responsive">
 					</div>
 					<div class="desc-bride">
 						<h3>Ahmad Zaki</h3>
@@ -762,22 +762,22 @@
 					<p>Description of the slide 1</p>
 				</div>`,*/
 			},{
-				src: '<?=base_url()?>/public/assets/images/gallery/DSC_0254.JPG',
-				thumb: '<?=base_url()?>/public/assets/images/gallery/DSC_0254.JPG',
+				src: '<?=base_url()?>/public/assets/images/gallery/cincin-online-2.JPG',
+				thumb: '<?=base_url()?>/public/assets/images/gallery/cincin-online-2.JPG',
 				/*subHtml: `<div class="lightGallery-captions">
 					<h4>Caption 1</h4>
 					<p>Description of the slide 1</p>
 				</div>`,*/
 			},
-			// {
-			// 	src: '<?=base_url()?>/public/assets/images/gallery/photo1658826961-2.jpeg',
-			// 	thumb: '<?=base_url()?>/public/assets/images/gallery/photo1658826961-2.jpeg',
-			// 	/*subHtml: `<div class="lightGallery-captions">
-			// 		<h4>Caption 1</h4>
-			// 		<p>Description of the slide 1</p>
-			// 	</div>`,*/
+			{
+				src: '<?=base_url()?>/public/assets/images/gallery/zaki-gallery-2.jpg',
+				thumb: '<?=base_url()?>/public/assets/images/gallery/zaki-gallery-2.jpg',
+				/*subHtml: `<div class="lightGallery-captions">
+					<h4>Caption 1</h4>
+					<p>Description of the slide 1</p>
+				</div>`,*/
 			
-			// },
+			},
 			{
 				src: '<?=base_url()?>/public/assets/images/gallery/photo1658826961.jpeg',
 				thumb: '<?=base_url()?>/public/assets/images/gallery/photo1658826961.jpeg',
