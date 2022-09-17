@@ -8,23 +8,22 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<title>The Wedding of Dira & Zaki</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta name="description" content="The Wedding of Dira dan Zaki" />
+	<meta name="description" content="The Wedding of Dira and Zaki" />
 	<meta name="keywords" content="wedding, wedding invitation, invitation, the wedding" />
 	<meta name="author" content="Dira & Zaki" />
 
 	<!-- Facebook and Twitter integration -->
 	<meta property="og:type" content="website">
-	<meta property="og:title" content="The Wedding of Dira dan Zaki"/>
-	<meta property="og:image" content="images/readme/half%20circle-200.png"/>
-	<meta property="og:site_name" content="The Wedding of Dira dan Zaki"/>
-	<meta property="og:description" content="The Wedding of Dira dan Zaki. Open source wedding invitation"/>
+	<meta property="og:title" content="The Wedding of Dira and Zaki"/>
+	<meta property="og:image" content="https://dirazakiwedding.my.id/public/assets/images/bride-icon.png"/>
+	<meta property="og:site_name" content="The Wedding of Dira and Zaki"/>
+	<meta property="og:description" content="Wedding Invitation. The Wedding of Dira and Zaki"/>
+	
+    <meta content='en_US' property='og:locale'/>
+    <meta content='en_GB' property='og:locale:alternate'/>
+    <meta content='id_ID' property='og:locale:alternate'/>
 
-	<meta name="twitter:card" content="summary_large_image" />
-	<meta name="twitter:title" content="The Wedding of Dira dan Zaki" />
-	<meta name="twitter:description" content="Open Source Wedding Invitation. The Wedding of Dira dan Zaki" />
-	<meta name="twitter:image" content="images/readme/half%20circle-200.png" />
-
-	<link rel="icon" href="images/readme/half%20circle-200.png">
+	<link rel="icon" href="https://dirazakiwedding.my.id/public/assets/images/bride-icon.png">
 
 	<link href='https://fonts.googleapis.com/css?family=Didact+Gothic' rel='stylesheet' type='text/css'>
 	<link href="https://fonts.googleapis.com/css?family=Sacramento" rel="stylesheet">
@@ -88,7 +87,7 @@
 		<div class="control-center open">
 			<div class="audio-play">
 				<!-- <div data-video="QZng89VxKWg" data-autoplay="0" data-loop="1" id="youtube-audio1"></div> -->
-				<div data-video="7UoP9ABJXGE" data-autoplay="0" data-loop="1" id="youtube-audio1"></div>
+				<div data-video="VkXIpQkFCWA" data-autoplay="0" data-loop="1" id="youtube-audio1"></div>
 			</div>
 			<ul class="right-sidebar">
 				<!--gallery-->
@@ -150,7 +149,7 @@
 					<div class="simply-countdown simply-countdown-wedding"></div>
 					<br>
 					<p>
-						<a href="https://calendar.google.com/event?action=TEMPLATE&tmeid=MGthb2hpbzQzbmEyZ3FxbWs2b3R0a2tiY2MgbmFkaXJhZGlyYTBAbQ&tmsrc=nadiradira0%40gmail.com" target="_blank" class="btn btn-primary btn-sm">Save the date</a><br>
+						<a href="https://calendar.google.com/event?action=TEMPLATE&tmeid=M2JuZDMxN2ltZTA5OGttMDYwZHFjY2YwaHMgdG10YjJsM2ozbDdqNzNwNnN0cWMzbzcwbWNAZw&tmsrc=tmtb2l3j3l7j73p6stqc3o70mc%40group.calendar.google.com" target="_blank" class="btn btn-primary btn-sm">Save the date</a><br>
 						<i style="font-size: 15px">*Klik tombol ini untuk menyimpan tanggal pada google kalender</i>
 					</p>
 				</div>
@@ -762,8 +761,8 @@
 					<p>Description of the slide 1</p>
 				</div>`,*/
 			},{
-				src: '<?=base_url()?>/public/assets/images/gallery/cincin-online-2.JPG',
-				thumb: '<?=base_url()?>/public/assets/images/gallery/cincin-online-2.JPG',
+				src: '<?=base_url()?>/public/assets/images/gallery/cincin-online-2.jpg',
+				thumb: '<?=base_url()?>/public/assets/images/gallery/cincin-online-2.jpg',
 				/*subHtml: `<div class="lightGallery-captions">
 					<h4>Caption 1</h4>
 					<p>Description of the slide 1</p>
